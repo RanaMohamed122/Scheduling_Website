@@ -62,7 +62,7 @@ body{
 	z-index: 2;
 }
 
-.login input[type=text]{
+ .login input[type=text]{
 	width: 250px;
 	height: 30px;
 	background: transparent;
@@ -76,6 +76,19 @@ body{
 }
 
 .login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+.login input[type=email]{
 	width: 250px;
 	height: 30px;
 	background: transparent;
@@ -124,4 +137,48 @@ body{
 
 .login input[type=button]:focus{
 	outline: none;
-}
+} 
+form {
+    margin:0 auto;
+    width:300px
+  }
+  input {
+    margin-bottom:3px;
+    padding:10px;
+    width: 100%;
+    border:1px solid #CCC
+  }
+  button {
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+	
+  }
+  label {
+	cursor:pointer;
+	font-size: 15px;
+	padding: 5px;
+  }
+  #form-switch {
+	display:none;
+	
+	
+  }
+  #register-form {
+    display:none
+  }
+  #form-switch:checked~#register-form {
+    display:block
+  }
+  #form-switch:checked~#login-form {
+    display:none
+  }
