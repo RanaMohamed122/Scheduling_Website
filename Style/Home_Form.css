@@ -1,6 +1,6 @@
 
 .frame {
-    background: black url(PaintSwatches_1400x900.jpg);
+    background: black url(../img/PaintSwatches_1400x900.jpg);
     background-size: cover;
 	height: 100%;
 	position: absolute;

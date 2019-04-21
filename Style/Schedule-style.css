@@ -1,0 +1,94 @@
+body {
+  size: 100%;
+  padding: 0px;
+}
+.frame {
+  background: url(../img/PaintSwatches_1400x900.jpg);
+  -webkit-filter: blur(5px);
+  z-index: -1;
+  background-size: cover;
+  margin:0px;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.ta {
+  position: relative;
+  padding-top: 60px;
+  /*
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  */
+  z-index: 2;
+  opacity: 0.8;  
+  height: 200px;
+   padding-left: 0px;
+
+  float: left;
+}
+h3{
+  color:darkred;
+  
+  padding-top: 80px;
+  padding-right: 95px;
+  float: right;
+  text-align: center;
+   
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.8;
+}
+table {
+  
+  -webkit-filter: blur(0.3px);
+  align-content: center;
+  position: relative;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #efefef;
+  
+  
+}
+th{
+  background-color:rgba(124, 119, 119, 0.397);
+  font-weight: bold; 
+  border-color: auto;
+  color: darkred;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+td {
+  text-align: left;
+
+  opacity: 1.0;
+}
+
+td.course{
+  /*background-color: rgb(144, 147, 235) !important; */
+  box-shadow: 5px 0px 20px rgb(231, 230, 230) inset;
+  color: black;
+  border: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+ 
+}
+
+button{
+  margin-top: 20px;
+  width: 90px;
+  height: 40px;
+  background-color:whitesmoke;
+  font-family: sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+  color:grey;
+  border-radius: 6px;
+  
+
+ margin-left: 200px;
+
+
+}
